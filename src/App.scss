@@ -1,0 +1,16 @@
+.big-box {
+    width: 35%;
+    margin: 30px auto;
+    // border: 1px solid black;
+
+    @media screen and (max-width: 970px) {
+        width: 55%;
+    }
+    @media screen and (max-width: 670px) {
+        width: 65%;
+    }
+    @media screen and (max-width: 470px) {
+        width: 85%;
+    }
+}
+

@@ -1,0 +1,39 @@
+
+.header {
+    width: 100%;
+    padding: 10px 0;
+    background: #CE0E2D;
+}
+.header-title {
+    justify-content: flex-start;
+    margin: 10px;
+    color: white;
+    font-size: 1.2em;
+}
+.header-box {
+    width: 100%;
+    display: flex;
+    background: #CE0E2D;
+    margin: auto;
+}
+
+.header-form {
+    width: 100%;
+}
+
+.input-container {
+    width: 90%;
+    padding: 0 6px;
+    margin: 2px 12px;
+    margin-bottom: 12px;
+    height: 3em;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    
+    &::placeholder {
+      color: rgb(48, 46, 46);
+      font-size: 1.2em;
+    }
+}
+

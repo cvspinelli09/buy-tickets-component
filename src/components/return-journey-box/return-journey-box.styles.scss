@@ -1,0 +1,42 @@
+.return-journey-section {
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(207, 204, 204);
+}
+.return-checkbox {
+    display: grid;
+    width: 95%;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr;
+    // border: 1px solid red;
+}
+.one-way-checkbox {
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 0 5px;
+    width: 93.5%;
+    height: 1.5em;
+    background: rgb(248, 246, 246);
+}
+.labels {
+    font-size: small;
+    color: rgb(32, 32, 32);
+    padding: 3px;
+}
+.open-return-container {
+    width: 90%;
+    padding: 0 6px;
+    margin: 2px 12px;
+    height: 1.5em;
+    background: rgb(248, 246, 246);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+
+    &::placeholder {
+        color: rgb(48, 46, 46);
+        font-size: 1.3em;
+    }
+}
+ 

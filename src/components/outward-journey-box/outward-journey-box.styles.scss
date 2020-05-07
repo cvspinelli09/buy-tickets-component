@@ -1,0 +1,77 @@
+.outward-journey-section {
+    width: 100%;
+    padding: 10px 0;
+    background: rgb(224, 221, 221);
+}
+
+.title {
+    justify-content: flex-start;
+    text-align: left;
+    margin: 1px 10px;
+    color: #CE0E2D;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.input-container-outward {
+    width: 90%;
+    padding: 6px;
+    margin: 12px;
+    height: 2em;
+    border-top: 1px solid rgb(190, 184, 184);
+    border-left: lightgrey;
+    border-radius: 3px;
+    background-color: white;
+    color: rgb(19, 18, 18);
+    font-size: 0.8em;
+
+    &::placeholder {
+      color: rgb(48, 46, 46);
+      font-size: 1em;
+    }
+}
+
+.fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.15em;
+    padding-block-end: 0.325em;
+    min-inline-size: min-content;
+}
+
+.depart-input {
+    width: 44%;
+    height: 2em;
+    padding: 5px;
+    margin: 0;
+    margin-left: 0;
+    justify-content: flex-start;
+    border: 1px solid rgb(190, 186, 186);
+    border-radius: 5px;
+    // font-size: 0.6em;
+    background: rgb(248, 246, 246);
+
+    &::placeholder {
+      color: rgb(41, 39, 39);
+      font-size: 1.1em;
+    }
+}
+.clock-input {
+    width: 20%;
+    height: 2em;
+    padding: 5px;
+    margin: 0 5px;
+    justify-content: flex-end;
+    border: 1px solid rgb(190, 186, 186);
+    border-radius: 5px;
+    // font-size: 0.6em;
+    background: rgb(248, 246, 246);
+
+    &::placeholder {
+      color: rgb(48, 46, 46);
+      font-size: 1.3em;
+    }
+}
