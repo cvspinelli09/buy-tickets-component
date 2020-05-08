@@ -22,9 +22,14 @@ const ReturnBox = () => (
         placeholder="11 March, 2020"
       ></input>
       <div className="fieldset">
-        <input className="depart-input" placeholder="Depart After"></input>
-        <input type="" className="clock-input" placeholder="17"></input>
-        <input type="" className="clock-input" placeholder="00"></input>
+        <div className="input-icons">
+          <i class="fa fa-sort icon"></i>
+          <input className="depart-input" placeholder="Depart After"></input>
+          <i class="fa fa-sort icon"></i>
+          <input type="text" className="clock-input" placeholder="17"></input>
+          <i class="fa fa-sort icon"></i>
+          <input type="text" className="clock-input" placeholder="00"></input>
+        </div>
       </div>
     </form>
   </div>

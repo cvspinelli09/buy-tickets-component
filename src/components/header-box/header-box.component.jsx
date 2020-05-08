@@ -8,7 +8,7 @@ const HeaderBox = () => (
       <h2 className="header-title">Buy Tickets</h2>
     </div>
     <div className="header-box">
-      <form className='header-form'>
+      <form className="header-form">
         <input
           type="geo"
           className="input-container"

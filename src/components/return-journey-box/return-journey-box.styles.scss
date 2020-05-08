@@ -14,7 +14,8 @@
     display: inline-block;
     justify-content: space-evenly;
     margin: 0 5px;
-    width: 93.5%;
+    padding: 3px 1px;
+    width: 93%;
     height: 1.5em;
     background: rgb(248, 246, 246);
 }
@@ -27,7 +28,7 @@
     width: 90%;
     padding: 0 6px;
     margin: 2px 12px;
-    height: 1.5em;
+    height: 2em;
     background: rgb(248, 246, 246);
     display: flex;
     justify-content: flex-start;
@@ -38,5 +39,25 @@
         color: rgb(48, 46, 46);
         font-size: 1.3em;
     }
+}
+
+
+.input-icons i { 
+  position: absolute;
+} 
+  
+.input-icons { 
+  width: 100%; 
+} 
+
+.icon { 
+  padding: 10px; 
+  min-width: 40px; 
+}
+  
+.input-field { 
+  width: 100%; 
+  padding: 10px; 
+  text-align: center; 
 }
  
